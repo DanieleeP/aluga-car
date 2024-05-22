@@ -32,7 +32,7 @@ class App(ctk.CTk):
         self.btnExibir = ctk.CTkButton(self.frameBtns, text='Exibir Veiculos', width=187, height=183, image=self.img_exibir, compound='top', fg_color='#363D50', font=('Open Sans', 16, 'bold'), command=self.exibir)
         self.btnExibir.pack(side='left', expand= True)
 
-        self.btnAlugar = ctk.CTkButton(self.frameBtns, text='Alugar Veiculo', width=187, height=183, image=self.img_exibir, compound='top', fg_color='#363D50', font=('Open Sans', 16, 'bold'), command=self.alugar)
+        self.btnAlugar = ctk.CTkButton(self.frameBtns, text='Alugar Veiculo', width=187, height=183, image=self.img_alugar, compound='top', fg_color='#363D50', font=('Open Sans', 16, 'bold'), command=self.alugar)
         self.btnAlugar.pack(side='left', expand=True)
 
     def cadastro(self):
